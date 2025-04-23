@@ -1,0 +1,16 @@
+<html>
+<body>
+<p id = "P1"></p>
+<p id = "P2"></p>
+<script>
+var sum = new Function("a","b","return a+b")
+let x = sum(3,4)
+var diff = new Function("a","b","return a-b")
+let y = diff(3,4)
+var mult= new Function("a","b","return a*b")
+x = mult(3,4)
+document.getElementById("P1").innerHTML = x;
+document.getElementById("P2").innerHTML = y;
+</script>
+</body>
+</html>
